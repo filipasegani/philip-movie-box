@@ -1,0 +1,8 @@
+{
+  "name": "Philip Movie Box - AI Movie Discovery & Watchlist",
+  "description": "The ultimate movie companion for discovery, trailers, and streaming options, powered by TMDB and Gemini AI.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
