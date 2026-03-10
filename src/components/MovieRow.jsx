@@ -1,3 +1,4 @@
+import React, { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight, Download, Play, X, Heart } from 'lucide-react';
 import YouTube from 'react-youtube';
 import movieTrailer from 'movie-trailer';
