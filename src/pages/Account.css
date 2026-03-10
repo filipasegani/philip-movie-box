@@ -1,0 +1,51 @@
+.account-page {
+    width: 100%;
+    color: white;
+}
+
+.account-header {
+    width: 100%;
+    position: relative;
+    height: 400px;
+}
+
+.account-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.account-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+}
+
+.account-title {
+    position: absolute;
+    top: 20%;
+    padding: 16px;
+    z-index: 10;
+}
+
+.account-title h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.account-content {
+    padding-top: 20px;
+}
+
+@media (max-width: 500px) {
+    .account-title h1 {
+        font-size: 2rem;
+    }
+
+    .account-header {
+        height: 300px;
+    }
+}

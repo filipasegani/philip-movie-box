@@ -1,0 +1,135 @@
+.hero {
+    height: 80vh;
+    /* Large hero section */
+    color: white;
+    object-fit: contain;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content {
+    margin-left: 4%;
+    padding-top: 140px;
+    max-width: 600px;
+    z-index: 10;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-description {
+    width: 100%;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    max-width: 460px;
+    height: 80px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    display: -webkit-box;
+    -webkitline-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 4px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    transition: all 0.2s;
+}
+
+.play {
+    background-color: white;
+    color: black;
+}
+
+.play:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.more-info {
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
+}
+
+.more-info:hover {
+    background-color: rgba(109, 109, 110, 0.4);
+}
+
+.download {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.download:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.icon-sm {
+    width: 20px;
+    height: 20px;
+}
+
+.hero-fade-bottom {
+    height: 7.4rem;
+    background-image: linear-gradient(180deg,
+            transparent,
+            rgba(37, 37, 37, 0.61),
+            #141414);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.hero-trailer-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.hero-trailer-container .close-trailer {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.hero-trailer-container .close-trailer:hover {
+    color: var(--primary-color);
+}

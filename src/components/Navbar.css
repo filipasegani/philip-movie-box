@@ -1,0 +1,115 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 68px;
+    z-index: 100;
+    padding: 0 4%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0));
+    transition: background-color 0.3s;
+}
+
+.navbar.scrolled {
+    background-color: #141414;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #E50914;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links li {
+    color: #e5e5e5;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.nav-links li:hover {
+    color: #b3b3b3;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.profile-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-email {
+    font-size: 14px;
+    color: #e5e5e5;
+}
+
+.logout-btn,
+.auth-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.auth-btn {
+    padding: 6px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sign-in:hover {
+    color: #b3b3b3;
+}
+
+.sign-up {
+    background-color: #E50914;
+}
+
+.sign-up:hover {
+    background-color: #c40812;
+}
+
+.logout-btn:hover {
+    color: #E50914;
+}
